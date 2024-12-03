@@ -7,7 +7,7 @@ class Day03 {
         const val DO_COMMAND = "do()"
         const val DONT_COMMAND = "don't()"
     }
-    
+
     /**
      * Use regexp to find each mul() function, and sum the inputs together.
      */
