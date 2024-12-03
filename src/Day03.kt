@@ -1,7 +1,11 @@
-/*
- * Day 03.
+/**
+ * Day 03
  */
-fun main() {
+class Day03 {
+    companion object {
+        // Constants here
+    }
+
     fun part1(input: List<String>): Int {
         return input.sumOf { line ->
             val components = line.split("mul(", ")")
@@ -46,8 +50,11 @@ fun main() {
         }
         return part1(newInputs)
     }
+}
 
+fun main() {
     val input = readInput("Day03")
-    part1(input).println()
-    part2(input).println()
+    val day03 = Day03()
+    day03.part1(input).println()
+    day03.part2(input).println()
 }
