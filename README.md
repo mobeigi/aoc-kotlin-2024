@@ -1,6 +1,8 @@
-# aoc-kotlin-2024
+# Advent of Code 2024 (Kotlin)
 
 Welcome to the Advent of Code[^aoc] Kotlin project created by [mobeigi][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+
+![][file:cover]
 
 In this repository, mobeigi is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
 
@@ -23,3 +25,4 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 [kotlin]: https://kotlinlang.org
 [slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
 [template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+[file:cover]: .github/readme/cover.png
